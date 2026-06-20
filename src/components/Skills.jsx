@@ -24,8 +24,6 @@ function Skills() {
       title: "Languages & Frameworks",
       skills: [
         { name: "Python", icon: <SiPython size={40} color="#3776AB" /> },
-        { name: "ReactJS", icon: <SiReact size={40} color="#61DAFB" /> },
-        { name: "Django", icon: <SiDjango size={40} color="#44B78B" /> },
         { name: "SQL", icon: <FaDatabase size={40} color="#4479A1" /> },
       ],
     },
@@ -33,7 +31,6 @@ function Skills() {
     {
       title: "AI & Machine Learning",
       skills: [
-        { name: "TensorFlow", icon: <SiTensorflow size={40} color="#FF6F00" /> },
         { name: "PyTorch", icon: <SiPytorch size={40} color="#EE4C2C" /> },
         { name: "Machine Learning", icon: <FaBrain size={40} color="#8B5CF6" /> },
         { name: "Computer Vision", icon: <FaEye size={40} color="#06B6D4" /> },
@@ -92,7 +89,7 @@ function Skills() {
               {category.title}
             </h3>
 
-            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4gap-6">
               {category.skills.map((skill, idx) => (
                 <div
                   key={idx}

@@ -8,7 +8,7 @@ function Experience() {
         "Designed and deployed production AI systems across Healthcare, Hospitality, and Education sectors.",
         "Built an AI-powered WhatsApp Restaurant Assistant using LLMs, n8n, and WhatsApp Business API.",
         "Developed Smart Classroom Monitoring System using OpenCV, Django, ReactJS, and MongoDB.",
-        "Created Neurological Disorder Detection System using gait analysis and machine learning.",
+        
       ],
     },
 

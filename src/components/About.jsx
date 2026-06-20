@@ -28,7 +28,7 @@ function About() {
         <p className="text-lg md:text-xl text-gray-300 leading-10">
           I am an AI Engineer with hands-on experience designing and deploying
           Machine Learning, Computer Vision, and Generative AI solutions across
-          Healthcare, Education, and Hospitality domains. My expertise spans the
+          Healthcare, Education, and Business domains. My expertise spans the
           complete AI development lifecycle, from data collection and preprocessing
           to model training, deployment, and production monitoring.
 
@@ -37,8 +37,7 @@ function About() {
           I have built intelligent systems including AI-powered classroom monitoring,
           neurological disorder detection through gait analysis, and conversational
           AI assistants for restaurant automation. My technical stack includes
-          Python, TensorFlow, PyTorch, OpenCV, Django, ReactJS, MongoDB, MySQL,
-          LLMs, and Agentic AI frameworks.
+          Python, PyTorch, OpenCV, MongoDB, MySQL,LLMs, and Agentic AI frameworks.
 
           <br /><br />
 

@@ -8,7 +8,7 @@ function Hero() {
       id="home"
       className="min-h-screen flex items-center justify-center px-8"
     >
-      <div className="max-w-7xl mx-auto grid md:grid-cols-2 gap-20 items-center">
+      <div className="max-w-7xl mx-auto flex flex-col-reverse lg:flex-row items-center justify-between min-h-screen px-6 lg:px-10 gap-10">
 
         <div>
 
@@ -16,7 +16,7 @@ function Hero() {
             Hello, I'm
           </h2>
 
-          <h1 className="text-7xl font-bold mb-5">
+         <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold">
             Sohil Athar A
           </h1>
 
@@ -68,10 +68,10 @@ function Hero() {
     transition-all
   ">
     <h3 className="text-3xl font-bold text-cyan-400">
-      1+
+      1
     </h3>
     <p className="text-gray-300 text-sm">
-      Years Experience
+      Year of internship Experience
     </p>
   </div>
 
@@ -87,7 +87,7 @@ function Hero() {
       AI
     </h3>
     <p className="text-gray-300 text-sm">
-      Healthcare • Education • Hospitality
+      Healthcare • Education • Business
     </p>
   </div>
 
